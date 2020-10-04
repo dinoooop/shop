@@ -1,0 +1,6 @@
+laravel redirect
+return redirect()->route('login');
+
+
+Edit link for song
+<a href="{{route('songs.edit', $record['id'])}}">{{$record['title']}}</a>
